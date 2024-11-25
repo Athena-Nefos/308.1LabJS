@@ -27,3 +27,22 @@ if (numbers [0] > numbers[numbers.length - 1]) {
 } else {
     console.log("The first number is not larger than the last number.");
 }
+
+//Arithmetic Chains
+
+//subtract the first number from the last number
+
+const result = n1 - n4;
+
+console.log(result);
+
+//multiply the result by the third number
+const finalResult = result * n3;
+
+console.log(finalResult);
+
+//Find the remainder of dividing the result by the fourth number
+
+const remainder = finalResult % n4;
+
+console.log(remainder)
