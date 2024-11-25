@@ -19,3 +19,11 @@ if (allDivisibleBy5) {
 } else {
     console.log("Not all numbers are divisible by 5.")
 }
+
+// Check if first number is larger than the last.
+
+if (numbers [0] > numbers[numbers.length - 1]) {
+    console.log("The first number is larger than the last number.");
+} else {
+    console.log("The first number is not larger than the last number.");
+}
