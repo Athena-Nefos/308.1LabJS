@@ -54,8 +54,17 @@ for (let i = 1; i <= 20; i++) //{
 
 // * Print “even” for all even numbers
 
+//{
+// if (i % 2 === 0) {
+//    console.log(`${i} is even`);
+// }
+//}
+
+// * Print “odd” for all odd numbers. modified loop using not operator
 {
- if (i % 2 === 0) {
-    console.log(`${i} is even`);
+ if (i % 2 !== 0) {
+    console.log(`${i} is odd.`)
  }
 }
+
+
