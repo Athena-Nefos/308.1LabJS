@@ -32,7 +32,30 @@ for (let i = 1; i <= 7; i++) {
 
 }
 
-//write a for loop that iterates from 1 to 20
+//* write a for loop that iterates from 1 to 20
 
-for (let i = 1; i <= 20; i++)
+//for (let i = 1; i <= 20; i++)
 //    console.log(i);
+
+//* Print out all the Prime numbers
+for (let i = 1; i <= 20; i++) //{
+//if (isPrime(i)) {
+//    console.log(`${i} is prime`)
+//  }
+//}
+// Function to check if a number is prime
+//function isPrime(num) {
+//    if (num < 2) return false; //1 is not prime
+//    for (let j = 2; j <= Math.sqrt(num); j++) {
+//        if (num % j === 0) return false; //not prime if divisible by any number other than 1 and the number itself
+//    }
+//    return true; //Prime if no divisors were found
+//}
+
+// * Print “even” for all even numbers
+
+{
+ if (i % 2 === 0) {
+    console.log(`${i} is even`);
+ }
+}
